@@ -1,1 +1,1 @@
-guild_id = "GUILD_ID"
+guild_id = GUILD_ID

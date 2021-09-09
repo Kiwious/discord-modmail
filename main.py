@@ -1,10 +1,5 @@
-import token
 import discord
-from discord import message
-from discord.colour import Color
-from discord.embeds import EmptyEmbed
 from discord.ext import commands
-from utils import *
 
 client = commands.Bot(command_prefix=".")
 
@@ -55,4 +50,4 @@ async def close(ctx, member : discord.Member, *, reason=None):
 async def test(ctx):
     await ctx.send(str(ctx.author).lower().replace("#", "").replace(" ", "-").replace("|", "-"))
 
-client.run(token)
+client.run("token")
